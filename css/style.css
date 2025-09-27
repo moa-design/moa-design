@@ -220,13 +220,6 @@ gap: 10%;
 border-bottom: #000 solid 1px;
 }
 
-
-.trabajos{
-  width: 80%;
-    align-items: center;
-    flex-direction:row;
-    display: flex;
-    gap: 5%;}
   
  .neg{
   display: flex;
@@ -420,10 +413,13 @@ gap: 20px;
 }
 
   #servicios{
-  height: 100vh;
+  height: 70vh;
 }
-.trabajos{flex-direction: column;
-gap:30px;}
+.trabajos{
+  gap: 40px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;}
 
 #portfolio{
   width: 100%;
@@ -537,9 +533,15 @@ background: none;
   gap:50px;}
 
 
+  #servicios{
+  height: 70vh;
+
 }
 .trabajos {
-        flex-direction: row;}
+  display: flex;
+  gap: 40px;      
+  flex-direction: row;}
+        
 
   #contacto{
   height: 80vh;
@@ -584,11 +586,10 @@ letter-spacing: 0.02em; }
   #contacto{
     gap: 50px;
   min-height: 80vh;}
+
 .nosotros {
         flex-direction: row;}
 
-.trabajos {
-        flex-direction: row;}
 
   h1 { font-size: 120px;
    line-height: 1em; }
@@ -621,8 +622,6 @@ letter-spacing: 0.01em; }
   min-height: 80vh;
 }
 
-.trabajos {
-        flex-direction: row;}
 
   #contacto{
     gap: 50px;
