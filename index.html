@@ -12,26 +12,24 @@
   <body>
     <header class="header">
       <div class="contenedor-header">
-      <div class="logo">
-        <a href="index.html">
-        <img src="https://moadesign.com.ar/wp-content/uploads/2025/09/logo-negro.webp" alt="logo-negro">
-      </a>
-      </div>
-<div class="menu">
+
+        <img class="logo" src="https://moadesign.com.ar/wp-content/uploads/2025/09/logo-negro.webp" alt="logo-negro"> </a>
+      
     <nav>
-    <ul class="nav">
-    <li class="menu"><button><a href="#servicios">Servicios</a></button></li>
-    <li class="menu"><button><a href="#porfolio">Porfolio</a></button></li>
-    <li class="menu"><button><a href="#contacto">Contacto</a></button></li>
+    <ul id="nav-list">
+    <li><button><a href="#servicios">Servicios</a></button></li>
+    <li><button><a href="#porfolio">Porfolio</a></button></li>
+    <li><button><a href="#contacto">Contacto</a></button></li>
     </ul>
     </nav>
-    </div>
+    <button id="menu-toggle">&#9776;</button>
+   
 </header>
     <!-- siempre arriba en el body va el header -->
     <main>
       <section id="portada">
   <h1>Lo que hacés, <span>bien comunicado.</span></h1>
-        <h3>Diseño y estrategia a medida.</h3>
+        <h4>Diseño y estrategia a medida.</h4>
       <button><a href="#contacto">HABLEMOS SOBRE TU PROYECTO</a></button>
       </section>
 
@@ -114,12 +112,12 @@ Nos comprometemos a acompañar cada proyecto con seriedad, creatividad y resulta
         <div class="formulario">
          <form action="form">
 
-          <div class="nombr"><label for="Nombre"></label><input type="text"required></div>
-          <div class="serv"><label for="Servicio"></label><input type="text"required></div>
-          <div class="mail"><label for="email"></label><input type="email"required></div>
-          <div class="msj"><label for="Mensaje"></label><input type="textarea"required></div>
+          <div class="nombr"><label for="Nombre"></label><input type="text" name=nombre placeholder="Nombre" required></div>
+          <div class="serv"><label for="Servicio"></label><input type="text"name=servicio placeholder="Servicio" required></div>
+          <div class="mail"><label for="email"></label><input type="email"name=email placeholder="Email" required></div>
+          <div class="msj"><label for="Mensaje"></label><input type="textarea"name=mensaje placeholder="Mensaje" required></div>
          
-          <button><a href="https://www.moadesign.com.ar/contacto">Enviar</a></button>
+          <button class="formboton" type="submit">Enviar</a></button>
          </form>
         </div>
 </section>
@@ -131,12 +129,13 @@ Nos comprometemos a acompañar cada proyecto con seriedad, creatividad y resulta
 </div>
 <div class="cenfooter">
   <p>Desarrollado por <a href="https://moadesign.com.ar">Moa Design</a></p>
-  <p>© 2025 – All right reserved.</p>
+  <p>© 2025 - All right reserved.</p>
 </div>
 <div class="derfooter">
   <span></span>
 </div>
 </section>
 </footer>
+<script src="./js/index.js"></script>
   </body>
 </html>
