@@ -123,11 +123,11 @@ color: #000;
 }
 
 /*HEADER*/
-.header{
+.header{top: 0;
   border-bottom: #000 1px solid;
   background-color:#fff;
  z-index: 100; 
-position: fixed;  
+position: sticky;  
 width: 100%;
 margin: 0;
 }
@@ -190,12 +190,10 @@ padding: 1rem;}
 
 #portada{
 margin: 0 auto;
-border-top: 1px solid;
 border-bottom: 1px solid;
 border-color: #000;
 gap: 40px;
 width: 100%;
-height: 100vh;
 display: flex;
 flex-direction:column;
 align-items: center;
@@ -567,17 +565,18 @@ letter-spacing: 0.02em; }
  
 
 
- @media (min-width: 1366px) 
+ @media (min-width: 1024px) 
 { 
   #portada{
+   margin-top: 2vh; 
   height: 80vh;
   gap: 30px;
 }
   #servicios{
-  height: 50vh;
+  height: 70vh;
 }
   #banner{
-  height: 30vh;
+  height: 50vh;
 }
   #nosotros{
   height: 60vh;
@@ -610,7 +609,6 @@ letter-spacing: 0.01em; }
    @media (min-width: 1920px)
 { 
     #portada{
-      margin-top: 0;
   min-height: 100vh;
 }
   #servicios{
@@ -622,7 +620,6 @@ letter-spacing: 0.01em; }
   #nosotros{
   min-height: 80vh;
 }
-
 
   #contacto{
     gap: 50px;
