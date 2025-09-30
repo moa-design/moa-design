@@ -450,6 +450,14 @@ gap: 20px;
   height: 80vh;
 gap:5px;}
 
+.formulario {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;}
+
   .formulario form {
     width: 80%;
     gap: 20px;
@@ -473,8 +481,49 @@ letter-spacing: 0.01em; }
   p{ font-size: 16px; 
    line-height: 1.3em;
 letter-spacing: 0.01em; }
-  }
 
+   footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  text-align: center;
+  width: 100%;
+  height: 30vh;
+ }
+
+ footer .derfooter{
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+ }
+
+  footer .izqfooter{
+    flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+
+  footer .cenfooter{
+    flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+footer button{font-size: 30px;
+padding: 12px;}
+.logofooter{width:20%;}
+}
   @media (min-width: 768px) 
 { 
 
@@ -540,6 +589,13 @@ background: none;
   gap: 40px;      
   flex-direction: row;}
         
+.formulario {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;}
 
   #contacto{
   height: 80vh;
@@ -609,7 +665,7 @@ letter-spacing: 0.01em; }
    @media (min-width: 1920px)
 { 
     #portada{
-  min-height: 100vh;
+  min-height: 90vh;
 }
   #servicios{
   min-height: 70vh;
@@ -646,7 +702,7 @@ font-family: "new-order", Sans-serif;
 font-weight: 400;
 letter-spacing: 1px; 
 color: #000; }
- }
+ 
 
  footer{
   display: flex;
@@ -657,3 +713,35 @@ color: #000; }
   width: 100%;
   height: 30vh;
  }
+
+ footer .derfooter{
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+ }
+
+  footer .izqfooter{
+    flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+
+  footer .cenfooter{
+    flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+footer button{font-size: 30px;
+padding: 20px;}
+.logofooter{width:20%;}}
